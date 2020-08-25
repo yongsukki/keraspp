@@ -10,5 +10,5 @@ model.compile('SGD', 'mse')
 
 model.fit(x[:2], y[:2], epochs=1000, verbose=0)
 
-print('Targets:', y[2:])
+print('Targets1111:', y[2:])
 print('Predictions:', model.predict(x[2:]).flatten())
